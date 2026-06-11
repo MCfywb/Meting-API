@@ -51,7 +51,7 @@ jobs:
         uses: docker/setup-buildx-action@v4
 
       - name: Build docker image
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v7
         with:
           load: true
           push: false
@@ -136,7 +136,7 @@ jobs:
           images: ${{ secrets.DOCKERHUB_USERNAME }}/meting-api
 
       - name: Push docker image
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v7
         with:
           push: true
           tags: |
