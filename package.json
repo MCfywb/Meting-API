@@ -31,7 +31,7 @@
     "crypto-browserify": "^3.12.1",
     "esbuild": "0.28.1",
     "hono": "^4.12.25",
-    "nanoid": "^5.1.11"
+    "nanoid": "^5.1.15"
   },
   "allowScripts": {
     "core-js@3.49.0": true,
