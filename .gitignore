@@ -1,3 +1,15 @@
 node_modules/
 .env
 cookie/
+
+#markdown
+AGENTS.md
+CLAUDE.md
+DECISIONS.md
+MAP.md
+NOW.md
+PROJECT_INDEX.md
+RISKS.md
+RUNBOOK.md
+docs/
+history/

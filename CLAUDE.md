@@ -128,3 +128,19 @@ Cookie 支持两种来源（优先级从高到低）:
 - ES Module（`import/export`）
 - 使用 async/await 处理异步
 - 文件组织按职责分离：service / middleware / utils
+
+## 文档导航
+
+本文件是**架构、命令、环境变量等事实的权威来源**，不要在其他文档复制本文件内容，只做摘要与链接。
+
+| 需要什么 | 去哪里 |
+|----------|--------|
+| 协作规则、上下文读写规则 | [`AGENTS.md`](./AGENTS.md) |
+| 任务 → 文件/章节 路由 | [`PROJECT_INDEX.md`](./PROJECT_INDEX.md) |
+| 当前目标、进展、阻塞 | [`NOW.md`](./NOW.md) |
+| 目录、版本、配置、部署映射 | [`MAP.md`](./MAP.md) |
+| 操作步骤与验证（含未执行标注） | [`RUNBOOK.md`](./RUNBOOK.md) |
+| 已确认决策 / 提案 / 待核实 | [`DECISIONS.md`](./DECISIONS.md) |
+| 已知风险与验证缺口 | [`RISKS.md`](./RISKS.md) |
+| Vercel 迁移专题 | [`docs/context/vercel-bun-migration.md`](./docs/context/vercel-bun-migration.md) |
+| 历史记录索引 | [`history/README.md`](./history/README.md) |
