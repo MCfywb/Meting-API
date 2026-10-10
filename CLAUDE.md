@@ -29,7 +29,7 @@ docker run -p 80:80 -e METING_URL=https://example.com -e METING_TOKEN=secret met
 
 - **运行时**: Bun (ES Module)
 - **HTTP 服务**: 原生 Bun.serve API（非框架）
-- **核心库**: @meting/core ^1.6.0（音乐 API 封装）
+- **核心库**: @meting/core ^1.6.2（音乐 API 封装）
 - **缓存**: lru-cache ^11.x
 - **日志**: pino（JSON 格式）+ pino-pretty（开发环境）
 - **加密**: Node.js 内置 `node:crypto`（HMAC-SHA1）

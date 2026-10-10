@@ -5,7 +5,7 @@
     "": {
       "name": "@meting/server",
       "dependencies": {
-        "@meting/core": "^1.6.0",
+        "@meting/core": "^1.6.2",
         "lru-cache": "^11.2.2",
         "pino": "^10.1.0",
       },
@@ -16,7 +16,7 @@
     },
   },
   "packages": {
-    "@meting/core": ["@meting/core@1.6.1", "", {}, "sha512-6LPRZlZc8hUc0Jmg74tbMBLeoyXoyttPBLoNNpybLZ6GY+de95h9w3YQGh0yDwnrSivqcHMGZ5u5VJym5PdY1w=="],
+    "@meting/core": ["@meting/core@1.6.2", "", {}, "sha512-Qygn2CkfvBB3s1HFNfqdXLF/zpFjcFICn+FlakBI+yNNkMXDwEkrwWCrNkRDiAjfktAz/RTin3jQxCiY3HsIwg=="],
 
     "@oxlint/binding-android-arm-eabi": ["@oxlint/binding-android-arm-eabi@1.51.0", "", { "os": "android", "cpu": "arm" }, "sha512-jJYIqbx4sX+suIxWstc4P7SzhEwb4ArWA2KVrmEuu9vH2i0qM6QIHz/ehmbGE4/2fZbpuMuBzTl7UkfNoqiSgw=="],
 
